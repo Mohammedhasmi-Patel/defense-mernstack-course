@@ -1,0 +1,27 @@
+h1 {
+  height: 300px;
+  width: 300px;
+  background-color: aqua;
+  border: 3px solid green;
+  padding: 5px;
+  margin: 10px;
+}
+
+h2 {
+  height: 100px;
+  width: 100px;
+  background-color: antiquewhite;
+  border-radius: 30%;
+}
+
+/* 
+        Block level element take entire screen width
+        in span tag its only apply horizontal margin padding variticl is not apply.
+        display inline make it display block to inline
+
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+}

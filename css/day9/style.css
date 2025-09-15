@@ -1,0 +1,23 @@
+/* 
+      => css is stands for cascading style sheet
+      => inline css has highest priority.
+      => The last css code has highest priority.
+
+*/
+
+h1 {
+  background-color: aquamarine;
+}
+
+.first_heading {
+  background-color: rgb(43, 217, 159);
+  position: absolute;
+  left: 50px;
+  top: 50px;
+}
+
+.great-para {
+  background-color: brown;
+  position: sticky;
+  top: 0px;
+}

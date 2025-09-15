@@ -1,0 +1,25 @@
+/* css stands for cascading style sheet */
+
+.veg {
+  background-color: pink;
+}
+
+/* id based selection */
+#nonveg {
+  background-color: red;
+}
+
+/* group based selection */
+
+h1,
+li {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+h1 {
+  background-color: rgb(
+    rgb(237, 148, 148),
+    rgb(114, 222, 114),
+    rgb(73, 73, 196)
+  );
+}

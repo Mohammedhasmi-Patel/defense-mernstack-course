@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.flag-container {
+  height: 200px;
+  width: 300px;
+  background-color: #fff;
+  position: relative;
+  border: 2px solid black;
+}
+
+.round-circle {
+  background-color: red;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  left: 100px;
+  position: absolute;
+  top: 50px;
+}
