@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: 200px 200px;
+  grid-template-columns: 200px 200px;
+  gap: 10px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.box {
+  color: #fff;
+  font-size: 40px;
+}
+
+.first {
+  background-color: orange;
+}
+.second {
+  background-color: green;
+}
+
+.third {
+  background-color: aquamarine;
+}
+
+.fourth {
+  background-color: blueviolet;
+}
