@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.container {
+  width: 600px;
+  height: 400px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.login {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+input {
+  margin-left: 180px;
+  height: 40px;
+  width: 200px;
+  border-radius: 10px;
+}
+
+.centered-placeholder::-webkit-input-placeholder {
+  text-align: center;
+}
+
+#login {
+  background-color: rgb(125, 125, 239);
+  width: 180px;
+  height: 40px;
+  margin-left: 180px;
+  border-radius: 8px;
+  color: white;
+}
