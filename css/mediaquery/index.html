@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive</title>
+    <style>
+      .container {
+        height: 400px;
+        width: 400px;
+        font-size: 50px;
+        background-color: aqua;
+      }
+
+      @media screen and (max-width: 600px) {
+        .container {
+          height: 200px;
+          width: 200px;
+          font-size: 20px;
+          background-color: pink;
+        }
+      }
+
+      @media screen and (min-width: 800px) {
+        .container {
+          background-color: orange;
+          height: 500px;
+          width: 500px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container"></div>
+  </body>
+</html>

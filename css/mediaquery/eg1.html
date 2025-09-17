@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Example One</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        background-color: #000;
+      }
+      .container {
+        height: 400px;
+        width: 400px;
+        background-color: orange;
+        display: grid;
+        grid-template-rows: 1;
+        grid-template-columns: 1;
+        gap: 10px;
+      }
+      .img {
+        height: 400px;
+        width: 400px;
+      }
+
+      @media screen and (min-width: 600px) {
+        .container {
+          grid-template-columns: repeat(2, 1fr);
+          grid-template-rows: repeat(2, 1fr);
+        }
+      }
+      @media screen and (min-width: 900px) {
+        .container {
+          grid-template-columns: repeat(4, 1fr);
+          grid-template-rows: repeat(4, 1fr);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img class="img" src="./kohli1.jpeg" alt="" />
+      <img class="img" src="./kohli2.jpeg" alt="" />
+      <img class="img" src="./kohli3.png" alt="" />
+      <img class="img" src="./kohli4.jpeg" alt="" />
+    </div>
+  </body>
+</html>
