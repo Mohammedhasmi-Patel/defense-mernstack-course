@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 6</title>
+</head>
+<body>
+    <h1>Olympic Countdown Timer</h1>
+    <div id="countdown"></div>
+</body>
+<script>
+
+    const countdown = document.getElementById("countdown");
+    const olympicTime = new Date(2028,6,14).getTime();
+
+
+    setInterval(()=>{
+
+    const currentTime = Date.now();
+    let leftTimer = new Date(olympicTime - currentTime);
+
+
+
+
+    const day = Math.floor(leftTimer/(1000 * 60 * 60 * 24));
+    leftTimer %= 1000 * 60 * 60 * 24;
+
+    const hour = Math.floor(leftTimer/(1000 * 60 * 60));
+    leftTimer %= 1000 * 60 * 60;
+
+    const minute = Math.floor(leftTimer/(1000*60));
+    leftTimer %= 1000 * 60;
+
+    const seconds = Math.floor(leftTimer/1000);
+    leftTimer %= 1000
+
+    countdown.textContent=`Days: ${day} , Hours : ${hour} minutes : ${minute} seconds :${seconds}`
+
+
+    },1000)
+
+</script>
+</html>
