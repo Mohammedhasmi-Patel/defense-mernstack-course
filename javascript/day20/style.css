@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  font-size: 30px;
+  margin: 20px 0;
+  text-align: center;
+}
+
+/* ------USER LIST MAIN GRID------ */
+
+.parent {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* ------USER BOX------ */
+
+.user {
+  background: #f3f3f3;
+  padding: 15px;
+  border-radius: 10px;
+  width: 200px;
+  text-align: center;
+}
+
+.user img {
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+/* ------DETAIL SECTION------ */
+
+.user-details {
+  margin-top: 30px;
+  display: none;             /* hidden initially */
+  justify-content: center;
+}
+
+.user-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  width: 350px;
+  text-align: center;
+}
+
+.user-card img {
+  border-radius: 50%;
+  width: 150px;
+}
+
+.user-card a {
+  display: inline-block;
+  margin-top: 10px;
+  text-decoration: none;
+  color: rgb(0, 115, 255);
+  font-weight: bold;
+}
